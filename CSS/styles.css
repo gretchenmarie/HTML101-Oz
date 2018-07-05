@@ -1,0 +1,68 @@
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: darkcyan;
+}
+nav {
+    background-color: antiquewhite;
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: .2em; 
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+nav a {
+    margin: .2em 1em 0px 1em;
+    color: black;
+}
+nav a:hover {
+    color:white;
+}
+.wrapper {
+    background-color:#FFFFFF;
+}
+footer {
+    background-color: aliceblue;
+}
+h1, h2, h3{
+    color: red;
+}
+h1 {
+    text-transform: uppercase;
+}
+
+.oz{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.flex-container{
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    background-color: antiquewhite;
+}
+main {
+    flex: 1;
+    margin: 1em;
+}
+aside {
+    flex: 1em;
+    margin: 1em;
+}
+footer{
+    background-color: black;
+}
+footer a{
+    color: goldenrod;
+}
