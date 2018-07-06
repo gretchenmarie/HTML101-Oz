@@ -40,7 +40,17 @@ h1, h2, h3{
 h1 {
     text-transform: uppercase;
 }
+.flex-item {
+     background-color: hotpink;
+     width 30%;
+     margin 1em;
+     text-align: center;
+}
 
+.section-img { 
+margin: 0, auto;
+
+}
 .oz{
     width: 100%;
     height: auto;
